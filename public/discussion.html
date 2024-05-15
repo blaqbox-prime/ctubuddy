@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>CTU | DISCUSSION</title>
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="logo">
+            <img src="/images/Logo.jpg" alt="CTU Logo">
+        </a>
+
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="timetable.html">Timetable</a>
+            <a href="#discussion">Discussion</a>
+            <a href="resources.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <section class="video-discussion">
+        <video autoplay muted loop id="video-background">
+            <source src="/videos/discussion2.mp4" type="video/mp4">
+        </video>
+
+        <div class="video-content">
+            <h1>Welcome to the Discussion page of CTU-Buddy!</h1>
+            <p>This interactive platform is designed to foster collaborative learning and facilitate meaningful discussions among students. Whether you have questions about your studies or want to share insights with your peers, this is the place to engage in productive conversations and enhance your learning experience.</p>
+        </div>
+    </section>
+    
+    <section class="content-section">
+        <div class="content-section">
+            <h2>Get Started:</h2>
+            <p>
+                Ready to dive into enlightening discussions? Type your message and click the "Send" button to share your queries or join ongoing conversations. Remember, your active participation is pivotal in fostering a lively and supportive community on the CTU-Buddy Discussion page.
+            </p>
+
+            <div class="rules">
+                <h2>Rules:</h2>
+                <ul>
+                  <li>Post Questions</li>
+                  <li>Threaded Discussions</li>
+                  <li>Be Respectful</li>
+                  <li>Stay on Topic</li>
+                  <li>Provide Constructive Feedback</li>
+                  <li>Report Misconduct</li>
+                </ul>
+              </div>
+              
+            <p>
+                Join the conversation and embark on a collaborative learning journey today!
+            </p>
+        </div>
+    </section>
+    
+    <main>
+        <section class="chat">
+            <div class="chat-message user1-left">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 1">
+                    <span class="username">Kwena</span>
+                </div>
+                <p>Why should we use ordered lists in HTML? It seems unnecessary. Can't we just style unordered lists to look like ordered lists instead?</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 2">
+                    <span class="username">Malebo</span>
+                </div>
+                <p>Ordered lists provide semantic meaning to content, making it easier for search engines and assistive technologies to understand. Plus, they offer sequential numbering, which is useful for steps or instructions.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 3">
+                    <span class="username">Nicolette</span>
+                </div>
+                <p>Exactly, Malebo. Semantic HTML elements like <code>&lt;ol&gt;</code> convey the intended meaning of the content to both machines and humans. It's about clarity and accessibility.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 4">
+                    <span class="username">Joyce</span>
+                </div>
+                <p>But doesn't using <code>&lt;ol&gt;</code> limit our design flexibility? With CSS, we can style unordered lists to mimic ordered lists while maintaining more control over the visual presentation.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 5">
+                    <span class="username">Tebogo</span>
+                </div>
+                <p>Design flexibility shouldn't compromise semantic structure. <code>&lt;ol&gt;</code> provides a clear hierarchy, aiding in document comprehension. We can still style it to match our design needs.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 6">
+                    <span class="username">Thato</span>
+                </div>
+                <p>I agree with Tebogo. The primary goal of HTML is to structure content logically. By using <code>&lt;ol&gt;</code>, we're following best practices for web development.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 7">
+                    <span class="username">Tumelo</span>
+                </div>
+                <p>Furthermore, <code>&lt;ol&gt;</code> enhances accessibility by providing sequential numbering, aiding users who rely on screen readers or other assistive technologies to navigate the content more easily.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 8">
+                    <span class="username">Mpho</span>
+                </div>
+                <p>It seems we all agree that using <code>&lt;ol&gt;</code> is beneficial for both the structure and accessibility of our HTML documents. Let's aim for clarity and best practices in our web development endeavors.</p>
+            </div>
+            <div class="chat-message user1-left">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 1">
+                    <span class="username">Kwena</span>
+                </div>
+                <p>What about scenarios where we don't need sequential numbering? Can we still justify using <code>&lt;ol&gt;</code>?</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 2">
+                    <span class="username">Malebo</span>
+                </div>
+                <p>Even if we don't need sequential numbering, <code>&lt;ol&gt;</code> still provides a clear hierarchy and semantic meaning to our content. It helps maintain consistency and aids in document comprehension.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 3">
+                    <span class="username">Nicolette</span>
+                </div>
+                <p>Exactly, Malebo. Consistency is key in web development. Using <code>&lt;ol&gt;</code> ensures that our content is structured logically, regardless of whether sequential numbering is necessary.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 4">
+                    <span class="username">Joyce</span>
+                </div>
+                <p>I agree. Plus, by using <code>&lt;ol&gt;</code>, we're future-proofing our content. If sequential numbering becomes necessary in the future, our content is already structured accordingly.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 5">
+                    <span class="username">Tebogo</span>
+                </div>
+                <p>That's a good point, Joyce. Planning for future scalability is important in web development. <code>&lt;ol&gt;</code> offers that level of flexibility and preparedness.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 6">
+                    <span class="username">Thato</span>
+                </div>
+                <p>I agree with Tebogo and Joyce. <code>&lt;ol&gt;</code> provides a solid foundation for our content structure, ensuring consistency, clarity, and future adaptability.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 7">
+                    <span class="username">Tumelo</span>
+                </div>
+                <p>Moreover, using <code>&lt;ol&gt;</code> aligns with web standards and best practices. It helps maintain a cohesive development approach across projects and ensures interoperability with other systems.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 8">
+                    <span class="username">Mpho</span>
+                </div>
+                <p>Indeed, the benefits of using <code>&lt;ol&gt;</code> far outweigh any perceived limitations. Let's continue to prioritize structure, clarity, and accessibility in our HTML development efforts.</p>
+            </div>
+            <div class="chat-message user1-left">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 1">
+                    <span class="username">Kwena</span>
+                </div>
+                <p>What about scenarios where we need custom numbering or symbols? Can <code>&lt;ol&gt;</code> accommodate such requirements?</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 2">
+                    <span class="username">Malebo</span>
+                </div>
+                <p>Yes, Kwena. <code>&lt;ol&gt;</code> offers attributes like <code>type</code> and <code>start</code> that allow for custom numbering schemes and starting values. We can also use CSS to style the list markers further.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 3">
+                    <span class="username">Nicolette</span>
+                </div>
+                <p>Exactly, Malebo. By leveraging these attributes and CSS styling, we can achieve a wide range of custom numbering and symbol options to suit our design and content requirements.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 4">
+                    <span class="username">Joyce</span>
+                </div>
+                <p>I've used <code>&lt;ol&gt;</code> with custom numbering in the past. It's quite versatile and allows for creative expression while maintaining the underlying structure and semantics.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 5">
+                    <span class="username">Tebogo</span>
+                </div>
+                <p>Agreed, Joyce. <code>&lt;ol&gt;</code> provides the foundation, and CSS gives us the freedom to tailor the visual presentation according to our design specifications.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 6">
+                    <span class="username">Thato</span>
+                </div>
+                <p>I've found <code>&lt;ol&gt;</code> to be quite accommodating when it comes to custom numbering and symbols. It's a powerful tool for structuring content in HTML.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 7">
+                    <span class="username">Tumelo</span>
+                </div>
+                <p>Indeed, Thato. With <code>&lt;ol&gt;</code>, we're not just limited to numerical ordering. We can use alphabetic, Roman, or even custom symbols to represent our ordered lists.</p>
+            </div>
+            <div class="chat-message user-right">
+                <div class="chat-head">
+                    <img src="/images/user.svg" alt="User 8">
+                    <span class="username">Mpho</span>
+                </div>
+                <p>In summary, <code>&lt;ol&gt;</code> is a versatile element that provides a clear structure, semantic meaning, and flexibility in HTML documents. Let's leverage its capabilities to enhance the user experience and maintain best practices in web development.</p>
+            </div>
+        </section>
+
+    
+        <section class="input">
+            <input type="text" placeholder="Your name...">
+            <input  class="discussion-message" type="text" placeholder="Your message...">
+            <button>Send</button>
+        </section>
+        
+    </main>
+    
+        
+    </section>
+
+    <!-- Footer section -->
+    <section>
+        <footer class="footer">
+
+            <a href="#" class="logo2">
+                <!-- CTU Logo -->
+                <img src="/images/CTU Logo.png" alt="CTU Logo" width="100" height="100">
+            </a>
+
+            <!-- Footer navigation links -->
+            <div class="nav-footer">
+                <a href="about.html">About Us</a>
+                <a href="timetable.html">View Timetable</a>
+                <a href="discussion.html">See Discussions</a>
+                <a href="resources.html">CTU Resources</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <!-- Copyright text -->
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 Created by Code Crafters CTU Students| All Rights Reserved</p>
+            </div>
+    
+            <!-- Back to top button -->
+            <div class="footer-icon">
+                <a href="#"><img class="back-arrow" src="/images/Back.svg"></a>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
